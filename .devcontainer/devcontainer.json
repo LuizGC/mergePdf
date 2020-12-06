@@ -23,5 +23,6 @@
 		"ms-python.python"
 	],
 	"forwardPorts": [5000],
-	"remoteUser": "vscode"
+	"remoteUser": "vscode",
+	"postCreateCommand": "curl https://cli-assets.heroku.com/install.sh | sh"
 }
