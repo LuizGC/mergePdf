@@ -4,7 +4,8 @@ import random
 
 class PDFMerger:
 
-    pdfs_paths = []
+    def __init__(self):
+        self.pdfs_paths = []
     
     def add(self, pdfs_path):
         self.pdfs_paths.append(pdfs_path)
