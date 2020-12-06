@@ -5,7 +5,7 @@ RUN if [ "${INSTALL_NODE}" = "true" ]; then su vscode -c "source /usr/local/shar
 COPY requirements.txt .
 COPY app.py .
 COPY pdfmerger.py .
-copy templates ./templates
+copy templates ./
 
 RUN pip3 install --upgrade pip \
     && pip3 install -r requirements.txt
