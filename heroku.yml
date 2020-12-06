@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: gunicorn app:app --preload
+  web: gunicorn app:app --preload --bind 0.0.0.0:$PORT

@@ -24,5 +24,5 @@
 	],
 	"forwardPorts": [5000],
 	"remoteUser": "vscode",
-	"postCreateCommand": "curl https://cli-assets.heroku.com/install.sh | sh"
+	"postCreateCommand": ""
 }
